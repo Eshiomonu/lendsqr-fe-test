@@ -1,0 +1,47 @@
+.login {
+  display: flex;
+}
+
+.login-right {
+  height: 900px;
+  width: 704px;
+  left: 736px;
+  top: -5px;
+  border-radius: 0px;
+}
+.login-right h2 {
+  position: absolute;
+  width: 183px;
+  height: 55px;
+  left: 836px;
+  top: 215px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  letter-spacing: -0.04em;
+  color: #213F7D;
+}
+.login-right p {
+  position: absolute;
+  width: 194px;
+  height: 28px;
+  left: 836px;
+  top: 280px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #545F7D;
+}
+
+.login-form .login-email input {
+  position: absolute;
+  width: 447px;
+  height: 50px;
+  left: 836px;
+  top: 368px;
+}/*# sourceMappingURL=Login.css.map */
