@@ -1,11 +1,14 @@
 import React from 'react'
 import './Login.css'
 import SignIn from '../../Images/sign-in.png'
+import Logo from '../Logo/Logo'
 
 const Login = () => {
   return (
     <div className="login">
+      
       <div className="login-left">
+      <Logo/>
         <img src={SignIn} alt="" srcset="" />
       </div>
       <div className="login-right">
@@ -16,13 +19,17 @@ const Login = () => {
             <div className='login-email'>
               <input type="email" name="user_email" className="user" placeholder='Name'/>
             </div>
-            <div>
+            <div className='login-password'>
             <input type="password" name="user_password" className="user" placeholder='password' />
-            <span>Show</span>
             </div>
           
+              <div className="forget-password">FORGOT PASSWORD</div>
+           
           
-          <input type="submit" value="Login" className="button" />
+          <div className="">
+          <input type="submit" value="Login" className="button button-login" />
+          </div>
+          
           </form>
         </div>
       </div>
